@@ -1,0 +1,12 @@
+# Build and debug directories
+build/
+dist/
+debug/
+
+# IDE-specific files
+nbproject/
+
+# Temporary files
+*.o
+*.log
+*.tmp
