@@ -9,15 +9,11 @@
 #define	EXTINT_H
 #include <xc.h>
 
-#define LED_PIN_DDR TRISD0
 #define INT_PIN_DDR TRISB0
 
-typedef enum
-{
-    OUTPUT = 0,
-    INPUT = 1     
- 
-}pin_config;
+#define LED_PORT_DDR TRISD
+#define LED_PORT PORTD
+#define OUTPUT_LINES 0xfc 
 
 
 
