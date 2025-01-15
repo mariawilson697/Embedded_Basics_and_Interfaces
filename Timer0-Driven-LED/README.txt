@@ -14,7 +14,7 @@ The timer functions based on the overflow event of Timer0 (TMR0). The overflow c
 
 
 Timer Calculation:
-Pre-scalar value (P): 1 (No prescaling is used in this project)
+Pre-scalar value (P): 1:2
 Quantum value (Q): 200 nanoseconds (The timer increment for each clock cycle)
 Resolution (R): 256 (The timer resolution, Adjusted to 250 to get a whole number for count)
 Using the formula for calculating the number of overflows that will occur in one second:
