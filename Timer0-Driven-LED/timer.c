@@ -15,6 +15,12 @@ void init_timer0_config(void)
     /*enable TMR0 as timer: To count the internal clock pulse*/
     T0CS = 0;
     
-    /*No prescaler */
-    PSA = 1;
+    /*enable prescaler */
+    PSA = 0;
+
+    /*Set prescalar value of 1:2*/
+    PS2 = 0;
+    PS1 = 0;
+    PS0 = 0;
+
 }

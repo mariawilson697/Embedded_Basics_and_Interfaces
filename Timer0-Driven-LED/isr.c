@@ -8,7 +8,7 @@ void __interrupt() isr(void)
     {
         TMR0 = TMR0 + 8;
         count = count + 1;
-        if(count == 20000)
+        if(count == 10000)
         {
             count = 0;
             RD3 = !RD3;
